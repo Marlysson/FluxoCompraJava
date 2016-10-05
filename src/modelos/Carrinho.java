@@ -11,8 +11,11 @@ public class Carrinho {
 		this.itensCarrinho = new ArrayList<ItemCompra>();
 	}
 	
-	public void adicionarItem(ItemCompra itemCompra){
+	public void adicionarItem(Produto produto , int quantidade){
+		
+		ItemCompra itemCompra = new ItemCompra(produto,quantidade);
 		this.itensCarrinho.add(itemCompra);
+		
 	}
 	
 	
@@ -21,6 +24,7 @@ public class Carrinho {
 		int quantidadeTotal = 0;
 		
 		for (ItemCompra itemCompra : itensCarrinho) {
+			
 			quantidadeTotal += itemCompra.getQuantidade();
 		}
 		

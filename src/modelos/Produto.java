@@ -17,6 +17,10 @@ public class Produto {
 	public Double getPreco() {
 		return preco;
 	}
+	
+	public String toString(){
+		return String.format("%s %s", this.descricao, this.preco);
+	}
 
 	
 }

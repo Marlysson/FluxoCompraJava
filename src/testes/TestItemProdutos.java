@@ -22,13 +22,13 @@ public class TestItemProdutos {
 	}
 	
 	@Test
-	public void deveRetornarPrecoDoProdutoComprado(){
+	public void deve_Retornar_Preco_Do_Produto_Comprado(){
 		
 		assertEquals(macas.getProduto().getPreco(),Double.valueOf(2.00));
 	}
 	
 	@Test
-	public void deveRetornarPrecoTotalDoItemDaCompra(){
+	public void deve_Retornar_Preco_Total_Do_Item_Da_Compra(){
 		
 		assertEquals(macas.precoTotal(),Double.valueOf(20.00));
 		
