@@ -10,22 +10,21 @@ Aplicar os conhecimentos adquiridos na área de Análise de Sistemas:
 - Implementação
 - Uso de testes
 
-Todo o sistema terá sua documentação colocada na pasta [Documentação](documentacao/) claro :smile:
+> Todo o sistema terá sua documentação colocada na pasta [Documentação](documentacao/).
 
-####Pelo menos os seguintes diagramas:
+###Terá pelo menos os seguintes artefatos:
 
 - Um texto para expor os requisitos.
-
 - Casos de Uso
-- Classes
-- Atividade
+- Diagrama de Classes
+- Diagrama de Atividade
 
 
 ###Tecnologias usadas:
 
-> Pretendo fazer a implementação dessa modelagem para duas tecnologias diferentes: Java/JSF e Python/Django
+> Pretendo fazer a implementação dessa modelagem para duas tecnologias diferentes ( mas não é certeza ) : **Java/JSF** e **Python/Django**
 
-#####Java
+####Java
 
 - Banco de dados
   - JPA - Hibernate
@@ -36,10 +35,10 @@ Todo o sistema terá sua documentação colocada na pasta [Documentação](documentac
 - Frontend
   - HTML/CSS/Javascript
 
-> Verificando a possibilidade de EJB/CDI ... Verificando mesmo :smile:
+> Verificando a possibilidade de EJB/CDI ... Só verificando mesmo :smile:
 
 
-#####Python
+####Python
 
 - Banco de dados
   - ORM / Django
